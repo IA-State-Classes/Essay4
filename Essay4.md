@@ -1,4 +1,4 @@
-### PyPDF2 and PdfMiner comparison
+﻿### PyPDF2 and PdfMiner comparison
 
 A software developer, depending on what they want to do, has several options in terms of what library they want to use. They may want to develop a game, so they may use a library tailored to that goal. However, there are many libraries available for a type of goal. If a developer wishes to use a library to process PDF files (in python), they can choose between several libraries. Two of these libraries are PyPDF2 and pdfMiner.
 
@@ -17,3 +17,8 @@ The two projects also have distinct publishing approaches to PyPI. Where PdfMine
 PyPDF2 and PdfMiner are both libraries that accomplish the same goal of transorming the contents of pdf files. They both do not utilize a user interface to accomplish the goal. Instead, the contents of the library can be implemented into a python program that you write at the time of use. The reqirment of the user to write the code makes both projects easier to develop and make them both less prone to errors and bugs.
 
 Many of the classes in PyPDF2 do not depend on each other. They can be used independently based on the task you are trying to execute such as read or writing to a pdf file. The same can't be said about PdfMiner. In PdfMiner, most of the casses have several dependencies. For example, if I wanted to convert a .pdf file to .txt format, I would use the pdf2txt.py that uses and handles many data structures within the .pdf format. PyPDF2 does this all externally to the file, and does not require that you understand this part of the prject when doing simple functions like this.
+
+### Usability
+Usability is about how the user can use the software efficiently, effectively, and satisfactory with its intended purpose. Both PYPDF2 and pdf miner are about creating PDF documents. As usability is about the effectiveness of the software that would go into the positives and negatives of both PYPDF and pdf miner. First, the benefits of PYPDF2 are that it allows the users to customize the pdf document by being allowed to split, merge, crop, encrypt the pdf document. A negative about the software is that when the pdf document is created there are spaces at unusual spaces. Along with that, PYPDF2 was shut down for a certain amount of time due to the creation of new versions of the software. There was a third and fourth version ( PYPDF3 and PYPDF4), but they didn’t fix all the problems the software had and eventually PYPDF2 was reactivated. This software’s effectiveness as the improved versions did not fix all the problems and the earlier version had to be reactivated. With pdf miner it allows the same functionalities as PYPDF2. A negative is that it does not have enough documentation which is important for the user to understand how to use the software. 
+
+
