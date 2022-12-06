@@ -6,6 +6,10 @@ PyPDF2 is a library with many different iterations, where the maintenance of thi
 
 PdfMiner has two iterations, pdfMiner and pdfMiner.six. For this essay, PdfMiner will reference the pdfMiner.six iteration because it is more recently maintained. Issues are found and resolved similarly to pyPDF2. Currently, this library supports python versions 3.6 or newer. With PdfMiner, a developer can extract text, metadata, and images from a PDF file.  
 
+Overall progress of these libraries is in very different places. The functionality of PyPDF2 is extreme. PyPDF2 is able to split, merge, crop, and transform the pages of PDF files. It can also add custom data, viewing options, and passwords to PDF files. PyPDF2 can retrieve text and metadata from PDFs as well. This library covers all bases very well. If you have a need, there is a good chance that this project is able to complete your goal. As for PdfMiner, the funcitonality is implemented on a much lesser extent. For example, the only use cases that PdfMiner is able to acomplish are extracting text from a pdf file and extracting other objects, such as images, from a pdf file. This functionality is covers a very specefic use case when it comes to pdf file.
+
+Both projects overall have been in prduction for quite some time. Which each project has it's flaws, both set out to acomplish different goals when it comes to dealing with the binary behind a pdf file. Many of the differences in the projects have to do with how they approacha the problem when it comes to software development. These differences are in development characteristics and views of the characteristics, such as the deployment view, the runtime view, and overall project usability.
+
 #### Deployment View 
 Both PyPDF2 and PdfMiner are pure python libraries, so they go through similar phases throughout their deployment processes: they both use [flake8](https://flake8.pycqa.org/en/latest/) to check the coding style, both run Continuous Integration (CI) workflow, and they both publish to Python Package Index (PyPI). However, there are still some nuances that leave one approach more desirable than the other in certain aspects.  
 
